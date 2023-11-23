@@ -75,62 +75,62 @@ function images(){
     // юзер
     switch (userCard){
         case "6":
-            $("#user-card").prepend('<img src="img/six.png" alt="six">');
+            $("#user-card").html('<img src="img/six.png" alt="six">');
             break;
         case "7":
-            $("#user-card").prepend('<img src="img/seven.png" alt="seven">');
+            $("#user-card").html('<img src="img/seven.png" alt="seven">');
             break;
         case "8":
-            $("#user-card").prepend('<img src="img/eight.png" alt="eight">');
+            $("#user-card").html('<img src="img/eight.png" alt="eight">');
             break;
         case "9":
-            $("#user-card").prepend('<img src="img/nine.png" alt="nine">');
+            $("#user-card").html('<img src="img/nine.png" alt="nine">');
             break;
         case "10":
-            $("#user-card").prepend('<img src="img/ten.png" alt="ten">');
+            $("#user-card").html('<img src="img/ten.png" alt="ten">');
             break;
         case "2":
-            $("#user-card").prepend('<img src="img/jack.png" alt="jack">');
+            $("#user-card").html('<img src="img/jack.png" alt="jack">');
             break;
         case "3":
-            $("#user-card").prepend('<img src="img/queen.png" alt="queen">');
+            $("#user-card").html('<img src="img/queen.png" alt="queen">');
             break;
         case "4":
-            $("#user-card").prepend('<img src="img/king.png" alt="king">');
+            $("#user-card").html('<img src="img/king.png" alt="king">');
             break;
         case "11":
-            $("#user-card").prepend('<img src="img/ace.png" alt="ace">');
+            $("#user-card").html('<img src="img/ace.png" alt="ace">');
             break;
     }
 
     // комп'ютер
     switch (computerCard){
         case "6":
-            $("#computer-card").prepend('<img src="img/six.png" alt="six">');
+            $("#computer-card").html('<img src="img/six.png" alt="six">');
             break;
         case "7":
-            $("#computer-card").prepend('<img src="img/seven.png" alt="seven">');
+            $("#computer-card").html('<img src="img/seven.png" alt="seven">');
             break;
         case "8":
-            $("#computer-card").prepend('<img src="img/eight.png" alt="eight">');
+            $("#computer-card").html('<img src="img/eight.png" alt="eight">');
             break;
         case "9":
-            $("#computer-card").prepend('<img src="img/nine.png" alt="nine">');
+            $("#computer-card").html('<img src="img/nine.png" alt="nine">');
             break;
         case "10":
-            $("#computer-card").prepend('<img src="img/ten.png" alt="ten">');
+            $("#computer-card").html('<img src="img/ten.png" alt="ten">');
             break;
         case "2":
-            $("#computer-card").prepend('<img src="img/jack.png" alt="jack">');
+            $("#computer-card").html('<img src="img/jack.png" alt="jack">');
             break;
         case "3":
-            $("#computer-card").prepend('<img src="img/queen.png" alt="queen">');
+            $("#computer-card").html('<img src="img/queen.png" alt="queen">');
             break;
         case "4":
-            $("#computer-card").prepend('<img src="img/king.png" alt="king">');
+            $("#computer-card").html('<img src="img/king.png" alt="king">');
             break;
         case "11":
-            $("#computer-card").prepend('<img src="img/ace.png" alt="ace">');
+            $("#computer-card").html('<img src="img/ace.png" alt="ace">');
             break;
     }
 }

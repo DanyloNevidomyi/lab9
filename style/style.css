@@ -37,11 +37,6 @@ img {
     height: 400px;
     width: 270px;
 }
-    
-.card {
-    font-size: 40px;
-    color: aqua;
-}
 
 #scores{
     font-size: 35px;
@@ -78,9 +73,6 @@ img {
     img {
         width: 120px;
         height: 200px;
-    }
-    .card {
-        size: 10px;
     }
 
     #scores {
@@ -120,9 +112,6 @@ img {
     img {
         width: 155px;
         height: 230px;
-    }
-    .card {
-        size: 10px;
     }
 
     #scores {
