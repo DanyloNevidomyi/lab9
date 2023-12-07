@@ -1,4 +1,7 @@
 $(function(){
+    $("#back").click(function() {
+        window.location.href = "https://danylonevidomyi.github.io/individual/";
+    })
 
     // ім'я юзера
     let username = prompt("Уведіть ваше ім'я", "User");
